@@ -2,15 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ChildComponent } from './child/child.component';
-import { NumberService } from './number.service';
-import { StringService } from './string.service';
+import { FristCompComponent } from './frist-comp/frist-comp.component';
+import { SecondCompComponent } from './second-comp/second-comp.component';
 
 @NgModule({
-  declarations: [AppComponent, ChildComponent],
-  imports: [BrowserModule],
-  providers: [NumberService, StringService
+  declarations: [
+    AppComponent,
+    FristCompComponent,
+    SecondCompComponent
   ],
-  bootstrap: [AppComponent],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
