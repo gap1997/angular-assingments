@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FristCompComponent } from './frist-comp/frist-comp.component';
-import { SecondCompComponent } from './second-comp/second-comp.component';
+import { NewCompComponent } from './new-comp/new-comp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FristCompComponent,
-    SecondCompComponent
+    NewCompComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
