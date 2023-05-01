@@ -6,13 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  messagefromchild: string | any
-  
-  sendmessagetochild() {
-    this.messagefromchild = "Hello from Parent";
+  userInput: string | any;
+
+  length() {
+    console.log(this.userInput.length)
   }
-  recivemessagefromchild(massage:string) {
-    console.log(massage);
-    
-   }
 }
+
+
