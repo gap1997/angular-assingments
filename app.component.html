@@ -1,4 +1,3 @@
-<div>
-<h1>Enter the string and get the string length</h1>
-  <input type="text" [(ngModel)]="userInput" (input)="length()" />
-</div>
+<input type="text" #inputTextbox (input)="oninput(inputTextbox.value)">
+<p>length of input:{{Length }}</p>
+

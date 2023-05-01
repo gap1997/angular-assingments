@@ -6,11 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  userInput: string | any;
+  Length: number = 0;
+inputTextbox: any;
 
-  length() {
-    console.log(this.userInput.length)
+  oninput(value: string) {
+    this.Length=value.length
   }
+  
+
 }
 
 
