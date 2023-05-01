@@ -3,14 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FristComponent } from './frist/frist.component';
-import { SecondComponent } from './second/second.component';
+import { AbcComponent } from './abc/abc.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FristComponent,
-    SecondComponent
+    AbcComponent
   ],
   imports: [
     BrowserModule,
